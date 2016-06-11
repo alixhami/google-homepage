@@ -1,11 +1,3 @@
-
-
-/*
-* {
-	border: 1px dashed black;
-}
-*/
-
 body {
 	margin: 0;
 	padding: 0;
@@ -20,6 +12,8 @@ a {
 a:hover {
 	text-decoration: underline;
 }
+
+/* Top Row Icons below */
 
 .top-row {
 	text-align: right;
@@ -49,15 +43,17 @@ a:hover {
 	border-radius: 100%;
 }
 
+/* Main elements at the center of the page below */
+
 #google-logo-main {
 	width: 272px;
-	margin: 170px auto 0;
+	margin: 160px auto 0;
 }
 
 #search-box {
 	width: 420px;
 	height: 25px;
-	margin: 20px auto;
+	margin: 30px auto;
 }
 
 #search-box img {
@@ -72,7 +68,7 @@ a:hover {
 
 input[type="text"] {
 	width: 420px;
-	height: 25px;
+	height: 30px;
 	display: inline-block;
 	float: left;
 }
@@ -93,7 +89,7 @@ input[type="submit"] {
 	text-align: center;
 	background-color: #f2f2f2;
 	height: 35px;
-	width: 125px;
+	width: 140px;
 }
 
 input[type="submit"]:hover {
@@ -105,28 +101,51 @@ input[type="submit"]:hover {
 
 #google-button, #lucky-button {
 	display: inline-block;
-	margin: 5px;
+	margin: 3px;
+	margin-top: 15px;
 	
 }
 
 #ali-tribute {
-	margin: 0 auto;
+	margin: 30px auto;
 	text-align: center;
 	text-decoration: none;
 	clear: both;
 }
+
+/* Bottom Row links below */
 
 .bottom-row {
 	position: fixed;
 	bottom: 0;
 	width: 100%;
 	background-color: #f2f2f2;
+	border-top: 1px solid #e6e6e6;
+}
+
+.bottom-row a {
+	color: #757575;
+}
+
+.bottom-row ul {
+	padding-left: 0;
+}
+
+.bottom-row li {
+	padding-left: 25px;
 }
 
 #bottom-row-left {
 	float: left;
+	width: 50%;
+	padding-left: 10px;
 }
 
 #bottom-row-right {
 	float: right;
+	width: 50%;
+	position: fixed;
+	right: 0px;
+	padding-right: 10px;
+	text-align: right;
 }
